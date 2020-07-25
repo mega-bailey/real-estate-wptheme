@@ -1,0 +1,225 @@
+/* COLORS
+Main dark grey: #363946; 
+Light grey: #696773;
+Light teal: #819595;
+Light sage: #b1b6a6;
+Blue for buttons: #4381c1; 
+White: rgb(226, 222, 222); 
+*/
+
+html,
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+header {
+  background: #363946;
+  width: 100%;
+  height: 6rem;
+}
+footer {
+  background: #363946;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+h1,
+.display-font {
+  font-family: 'Playfair Display', serif;
+}
+.weight200 {
+  font-weight: 200;
+}
+.weight700 {
+  font-weight: 700;
+}
+
+.page-wrap {
+  padding: 2rem 0;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+.logo {
+  font-weight: 600;
+  color: rgb(226, 222, 222);
+  line-height: 0.5;
+}
+.logo-secondary {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 200;
+  color: rgb(226, 222, 222);
+}
+.logo-hr {
+  width: 80%;
+  border-top: 1px solid #696773;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .top-bar {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+}
+
+footer .footer-bar li a {
+  list-style-type: none;
+  color: rgb(226, 222, 222);
+}
+footer .footer-bar li a:hover {
+  color: #819595;
+  text-decoration: none;
+}
+
+header .top-bar li a {
+  color: rgb(226, 222, 222);
+  transition: all 0.2s;
+}
+header .top-bar li a:hover {
+  color: #819595;
+  text-decoration: none;
+}
+
+header .top-bar li:not(last-child) a {
+  padding-right: 2rem;
+}
+
+header .top-bar li {
+  position: relative;
+}
+
+header .top-bar .sub-menu li {
+  width: 10rem;
+  z-index: 999;
+  transition: all 0.4s;
+}
+
+header .top-bar .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+header .top-bar li .sub-menu a {
+  display: block;
+  color: #222;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+header .top-bar li .sub-menu a:hover {
+  color: #363946;
+  background-color: #ffc857;
+}
+
+header .top-bar > .menu-item-has-children:hover > .sub-menu {
+  display: block;
+}
+
+/* 2nd level sub-menu */
+header
+  .top-bar
+  .menu-item-has-children
+  .sub-menu
+  > .menu-item-has-children:hover
+  > .sub-menu {
+  display: block;
+}
+
+header .top-bar .sub-menu li .sub-menu {
+  top: 5%;
+  left: 100%;
+}
+
+.col-lg-4 ul {
+  list-style-type: none;
+}
+.custom-fields li {
+  list-style-type: none;
+}
+
+.jumbotron {
+  background-image: url(http://192.168.64.2/mb_wp_starter/wp-content/uploads/2020/07/stephen-leonardi-8xn_PWT_6d0-unsplash-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35rem;
+  border-radius: 0;
+  color: #363946;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron-overlay {
+  width: 65%;
+  padding: 3rem;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgba(225, 226, 231, 0.863);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.jumbotron-hr {
+  width: 40%;
+  border-top: 1px solid #696773;
+  margin-top: 3px;
+  margin-bottom: 0;
+  text-align: left;
+  margin-left: 0;
+}
+
+.btn-orange {
+  background-color: #ffc857;
+  color: #363946;
+  padding: 1rem 1.5rem;
+}
+.btn-orange:hover {
+  background-color: #f1bc52;
+}
+
+li::marker {
+  color: transparent;
+  visibility: hidden;
+}
+
+.footer-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-text {
+  line-height: 0.5;
+  color: rgb(226, 222, 222);
+}
+
+.n2-clear {
+  margin-top: 4rem;
+}
