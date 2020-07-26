@@ -172,7 +172,8 @@ ul,
 }
 
 .search-label {
-  visibility: hidden;
+  /* visibility: hidden; */
+  /* display: none; */
 }
 .search-box {
   padding: 5px;
@@ -245,3 +246,17 @@ li::marker {
 .n2-clear {
   margin-top: 4rem;
 }
+
+/* .card-img {
+  768px
+ margin-top: 4rem; 
+} */
+/* @media only screen and (max-width: 768px) {
+  .row {
+    background-color: blue;
+  }
+  .card-image {
+    padding-top: 1rem;
+    margin-left: 0;
+  }
+} */

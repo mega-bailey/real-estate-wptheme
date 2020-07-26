@@ -2,8 +2,8 @@
 <?php get_header(); ?>
 
 <section class="page-wrap">
-<div class="container">
-<section class="row">
+<div class="container"> 
+        <section class="row">
         <div class="col-lg-10">
 
 <h1 class="mb-4"><?php echo single_cat_title(); ?></h1>
