@@ -3,9 +3,9 @@
 <div class="jumbotron ">
     <div class="container">
     <div class="jumbotron-overlay shadow">
-  <h1 class="display-4 weight700 mb-0">Saint Lorem</h1>
+  <!-- <h1 class="display-4 weight700 mb-0">Saint Lorem</h1>
   <hr class="jumbotron-hr">
-  <h2 class=" weight200 ">Real Estate</h2>
+  <h2 class=" weight200 ">Real Estate</h2> -->
   <p class="lead mb-5">Professional real estate services tailored to your personal needs.</p>
   <a class="btn btn-orange btn-lg shadow" href="<?php echo site_url('/homes'); ?>" role="button">View Our Listings</a>
 </div>

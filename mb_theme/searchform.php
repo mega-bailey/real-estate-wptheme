@@ -5,6 +5,6 @@
 <input type="hidden" name="category" value="<?php the_search_query();?>" required>
 <input type="text" name="s" id="search" value="<?php the_search_query();?>" class="search-box"  required>
 
-<button type="submit" class="btn btn-info">Search</button>
+<button type="submit" class="btn btn-info">Go</button>
 
 </form>

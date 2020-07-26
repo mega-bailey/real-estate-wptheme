@@ -7,7 +7,7 @@
     <h5 class="logo-secondary">Real Estate</h5>
     </div>
    
-        <div class="row justify-content-end">
+        <div class="row d-flex align-items-center justify-content-end">
         <?php get_search_form();?>
         </div>
 
