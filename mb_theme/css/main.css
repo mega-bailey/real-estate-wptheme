@@ -166,6 +166,20 @@ header .top-bar .sub-menu li .sub-menu {
   list-style-type: none;
 }
 
+ul,
+.custom-fields {
+  padding: 0;
+}
+
+#submit {
+  background-color: #18a2b8;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+}
+
 .jumbotron {
   background-image: url(http://192.168.64.2/mb_wp_starter/wp-content/uploads/2020/07/stephen-leonardi-8xn_PWT_6d0-unsplash-scaled.jpg);
   background-size: cover;
@@ -223,9 +237,4 @@ li::marker {
 
 .n2-clear {
   margin-top: 4rem;
-}
-
-#realtor-img {
-  width: 5rem;
-  height: 4rem;
 }

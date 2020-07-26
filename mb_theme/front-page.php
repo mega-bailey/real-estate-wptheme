@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 hello there
-<!-- 
+
 <div class="jumbotron ">
     <div class="container">
     <div class="jumbotron-overlay shadow">
@@ -25,7 +25,7 @@ hello there
 <?php get_search_form();?>
 
 </div>
-</section> -->
+</section>
 
 
 <?php get_footer(); ?>
