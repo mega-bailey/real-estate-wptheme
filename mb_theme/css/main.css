@@ -12,6 +12,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/***** NAVBAR *****/
 .nav {
   display: flex;
   width: 100%;
@@ -19,39 +20,6 @@ body {
 .navbar {
   background-color: #363946;
 }
-
-h1,
-.display-font {
-  font-family: 'Playfair Display', serif;
-}
-
-.page-wrap {
-  padding: 2rem 0;
-}
-
-footer {
-  background: #363946;
-  width: 100%;
-  height: 100%;
-  padding: 2rem;
-}
-footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 300;
-}
-
-footer .footer-bar li a {
-  list-style-type: none;
-  color: rgb(226, 222, 222);
-}
-footer .footer-bar li a:hover {
-  color: #819595;
-  text-decoration: none;
-}
-
-/***** NAVBAR *****/
 #menu-top-bar {
   background-color: #363946;
   padding: 2rem;
@@ -66,76 +34,47 @@ footer .footer-bar li a:hover {
   color: #819595;
 }
 
-/* li,
-.menu-item {
-  color: rgb(226, 222, 222);
-} */
-/* header .navbar-nav li a {
-  color: rgb(226, 222, 222);
-  transition: all 0.2s;
+/***** FOOTER *****/
+footer {
+  background: #363946;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
 }
-header .top-bar li a:hover {
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+}
+footer .footer-bar li a {
+  list-style-type: none;
+  color: rgb(226, 222, 222);
+}
+footer .footer-bar li a:hover {
   color: #819595;
   text-decoration: none;
 }
 
-header .top-bar li:not(last-child) a {
-  padding-right: 2rem;
+.footer-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-text {
+  line-height: 0.5;
+  color: rgb(226, 222, 222);
 }
 
-header .top-bar li {
-  position: relative;
+/***** UTILITIES *****/
+h1,
+.display-font {
+  font-family: 'Playfair Display', serif;
 }
 
-header .top-bar .sub-menu li {
-  width: 10rem;
-  z-index: 999;
-  transition: all 0.4s;
+.page-wrap {
+  padding: 2rem 0;
 }
-
-header .top-bar .sub-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  background: #fff;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-  transition: all 0.4s;
-}
-
-header .top-bar li .sub-menu a {
-  display: block;
-  color: #222;
-  padding: 5px 10px;
-  text-decoration: none;
-  transition: all 0.2s;
-}
-header .top-bar li .sub-menu a:hover {
-  color: #363946;
-  background-color: #ffc857;
-}
-
-header .top-bar > .menu-item-has-children:hover > .sub-menu {
-  display: block;
-} */
-
-/* 2nd level sub-menu */
-/* header
-  .top-bar
-  .menu-item-has-children
-  .sub-menu
-  > .menu-item-has-children:hover
-  > .sub-menu {
-  display: block;
-}
-
-header .top-bar .sub-menu li .sub-menu {
-  top: 5%;
-  left: 100%;
-} */
 
 .col-lg-4 ul {
   list-style-type: none;
@@ -143,12 +82,21 @@ header .top-bar .sub-menu li .sub-menu {
 .custom-fields li {
   list-style-type: none;
 }
-
 ul,
 .custom-fields {
   padding: 0;
 }
 
+li::marker {
+  color: transparent;
+  visibility: hidden;
+}
+
+.n2-clear {
+  margin-top: 4rem;
+}
+
+/***** SEARCH FORM *****/
 .search-label {
   display: none;
   visibility: hidden;
@@ -166,13 +114,13 @@ ul,
   padding: 5px 10px;
 }
 
+/***** FRONT PAGE JUMBOTRON *****/
 .jumbotron {
   background-image: url(http://192.168.64.2/mb_wp_starter/wp-content/uploads/2020/07/stephen-leonardi-8xn_PWT_6d0-unsplash-scaled.jpg);
   background-size: cover;
   background-position: center;
   height: 35rem;
   border-radius: 0;
-  color: #363946;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,50 +140,31 @@ ul,
   font-size: 3rem;
 }
 .sub-title {
+  font-size: 2.5rem;
 }
-@media screen and (min-width: 200px) and (max-width: 900px) {
+
+/***** MEDIA QUERY *****/
+@media screen and (min-width: 380px) and (max-width: 900px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+  .sub-title {
+    font-size: 2rem;
+  }
+  .jumbotron-overlay {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 380px) {
   .main-title {
     font-size: 2rem;
   }
   .sub-title {
+    font-size: 2rem;
   }
   .jumbotron-overlay {
-    background-color: blue;
+    width: 100%;
+    padding: 1rem;
   }
-}
-.jumbotron-hr {
-  width: 40%;
-  border-top: 1px solid #696773;
-  margin-top: 3px;
-  margin-bottom: 0;
-  text-align: left;
-  margin-left: 0;
-}
-
-.btn-orange {
-  background-color: #ffc857;
-  color: #363946;
-  padding: 1rem 1.5rem;
-}
-.btn-orange:hover {
-  background-color: #f1bc52;
-}
-
-li::marker {
-  color: transparent;
-  visibility: hidden;
-}
-
-.footer-location {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.footer-text {
-  line-height: 0.5;
-  color: rgb(226, 222, 222);
-}
-
-.n2-clear {
-  margin-top: 4rem;
 }
