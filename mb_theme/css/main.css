@@ -12,85 +12,33 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* .nav {
+.nav {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
   width: 100%;
-} */
+}
 .navbar {
   background-color: #363946;
-  height: 5rem;
-}
-.navbar-brand {
-  font-family: 'Playfair Display', serif;
-}
-header {
-  background-color: #363946;
-}
-footer {
-  background: #363946;
-  width: 100%;
-  height: 100%;
-  padding: 2rem;
 }
 
 h1,
 .display-font {
   font-family: 'Playfair Display', serif;
 }
-.weight200 {
-  font-weight: 200;
-}
-.weight700 {
-  font-weight: 700;
-}
 
 .page-wrap {
   padding: 2rem 0;
 }
 
-.logo-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 15px;
-}
-.logo {
-  font-weight: 600;
-  color: rgb(226, 222, 222);
-  line-height: 0.5;
-}
-.logo-secondary {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  color: rgb(226, 222, 222);
-}
-.logo-hr {
-  width: 80%;
-  border-top: 1px solid #696773;
-  margin-top: 3px;
-  margin-bottom: 0;
-}
-
-header .container {
-  display: flex;
-  /* //justify-content: space-between; */
-  align-items: center;
-  /* height: 100%; */
+footer {
+  background: #363946;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
 }
 footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: 300;
-}
-
-header .top-bar {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
   font-weight: 300;
 }
 
@@ -103,7 +51,26 @@ footer .footer-bar li a:hover {
   text-decoration: none;
 }
 
-header .navbar-nav li a {
+/***** NAVBAR *****/
+#menu-top-bar {
+  background-color: #363946;
+  padding: 2rem;
+  text-align: left;
+}
+#menu-top-bar li a {
+  font-weight: 300;
+  color: rgb(226, 222, 222);
+  transition: all 0.2s;
+}
+#menu-top-bar li a:hover {
+  color: #819595;
+}
+
+/* li,
+.menu-item {
+  color: rgb(226, 222, 222);
+} */
+/* header .navbar-nav li a {
   color: rgb(226, 222, 222);
   transition: all 0.2s;
 }
@@ -153,10 +120,10 @@ header .top-bar li .sub-menu a:hover {
 
 header .top-bar > .menu-item-has-children:hover > .sub-menu {
   display: block;
-}
+} */
 
 /* 2nd level sub-menu */
-header
+/* header
   .top-bar
   .menu-item-has-children
   .sub-menu
@@ -168,7 +135,7 @@ header
 header .top-bar .sub-menu li .sub-menu {
   top: 5%;
   left: 100%;
-}
+} */
 
 .col-lg-4 ul {
   list-style-type: none;
@@ -221,9 +188,16 @@ ul,
   justify-content: flex-start;
   align-items: flex-start;
 }
+.main-title {
+  font-size: 3rem;
+}
+.sub-title {
+}
 @media screen and (min-width: 200px) and (max-width: 900px) {
-  .min-text {
-    font-size: 4rem;
+  .main-title {
+    font-size: 2rem;
+  }
+  .sub-title {
   }
   .jumbotron-overlay {
     background-color: blue;
