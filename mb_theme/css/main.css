@@ -9,7 +9,7 @@ White: rgb(226, 222, 222);
 
 html,
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -51,7 +51,7 @@ h1,
   line-height: 0.5;
 }
 .logo-secondary {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   color: rgb(226, 222, 222);
 }

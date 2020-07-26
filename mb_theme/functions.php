@@ -2,7 +2,7 @@
 
 //GOOGLE FONTS
 function wpb_add_google_fonts() {
-    wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700&family=Playfair+Display:wght@400;600;700;800&display=swap', false ); 
+    wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&family=Playfair+Display:wght@400;600;700;800&display=swap', false ); 
     }
     add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 

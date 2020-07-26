@@ -1,3 +1,4 @@
+<!-- blog archive page -->
 <?php get_header(); ?>
 
 <section class="page-wrap">

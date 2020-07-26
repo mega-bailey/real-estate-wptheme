@@ -19,8 +19,16 @@
         <span class="text-muted font-weight-lighter">|</span> 
         <?php the_field('sqft'); ?> sqft </p>
 
-        <?php get_template_part('includes/section', 'homecontent'); ?>
+        <!-- Home Content -->
+<?php if( have_posts() ): while( have_posts()): the_post();?>
+<?php the_content();?>
+<button class="btn btn-info mt-3 mb-4">Contact Agent</button>
 
+<p class="mb-5">Listed for sale on <?php echo get_the_date('d/m/Y h:i:s');?></p>
+<?php endwhile; else: endif; ?>
+
+
+    
         <?php wp_link_pages(); ?>
         </div>
 
@@ -29,6 +37,7 @@
                <li><span class="font-weight-bold">Type:</span> <?php the_field("type");?></li>
                <li><span class="font-weight-bold">Year Built:</span> <?php the_field("year_built");?></li>
                <li><span class="font-weight-bold">Price/sqft:</span> $<?php the_field("pricesqft");?></li>
+               
            </ul>
         </div>
     

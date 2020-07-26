@@ -6,7 +6,7 @@
 
 
 <section class="row">
-        <div class="col-lg-9">
+ <div class="col-lg-9">
 
 <h2 class="display-font"><?php echo single_cat_title(); ?></h2>
 

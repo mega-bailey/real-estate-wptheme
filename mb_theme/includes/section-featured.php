@@ -7,7 +7,7 @@
     <img src="<?php the_post_thumbnail_url('blog-small');?>" alt="<?php the_title();?>" class="img-fluid mb-4 mr-4">
     <?php endif;?>
 
-    <div class="blog-content">
+        <div class="blog-content">
 
         <h4 ><?php the_title(); ?> </h4>
         <?php the_excerpt();?>
