@@ -20,11 +20,7 @@ body {
 .navbar {
   background-color: #363946;
 }
-#menu-top-bar {
-  background-color: #363946;
-  padding: 2rem;
-  text-align: left;
-}
+
 #menu-top-bar li a {
   font-weight: 300;
   color: rgb(226, 222, 222);
