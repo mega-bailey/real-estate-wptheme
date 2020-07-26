@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-hello there
 
 <div class="jumbotron ">
     <div class="container">
@@ -15,14 +14,17 @@ hello there
 <section class="page-wrap">
 
 
-<div class="container">
+<div class="container mb-5">
     
-<h1>Welcome to Saint Lorem </h1>
+<h1 class="mb-4">Welcome to Saint Lorem </h1>
 
 <?php get_template_part('includes/section', 'content'); ?>
-<?php get_template_part('includes/section', 'featured'); ?>
 
-<?php get_search_form();?>
+
+
+<a class="btn btn-orange btn-lg shadow mr-2" href="#" role="button">View Our Listings</a>
+<a class="btn btn-orange btn-lg shadow" href="#" role="button">View Our Blog</a>
+
 
 </div>
 </section>

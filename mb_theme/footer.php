@@ -7,6 +7,11 @@
     <h5 class="logo-secondary">Real Estate</h5>
     </div>
    
+        <div class="row justify-content-end">
+        <?php get_search_form();?>
+        </div>
+
+        
     <?php wp_nav_menu(
         array(
             'theme_location' => 'footer-menu',
@@ -14,6 +19,7 @@
         )); 
     ?>
     </div>
+    
     </footer>
 
 

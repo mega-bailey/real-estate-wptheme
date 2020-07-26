@@ -171,6 +171,13 @@ ul,
   padding: 0;
 }
 
+.search-label {
+  visibility: hidden;
+}
+.search-box {
+  padding: 5px;
+}
+
 #submit {
   background-color: #18a2b8;
   color: white;
