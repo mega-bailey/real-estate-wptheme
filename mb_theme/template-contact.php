@@ -26,7 +26,7 @@ Template Name: Contact
 
 
     </section>
-    <div class="col-lg-6">
+    <div class="col-lg-6 mt-5">
     <?php get_template_part('includes/form', 'enquiry'); ?>
     </div>
 

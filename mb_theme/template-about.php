@@ -11,7 +11,7 @@ Template Name: About
 <div class="container">
 <h1 class="mb-4"><?php the_title(); ?></h1>
 
-<div class="row">
+<div class="row mb-5">
     <div class="container">
     <?php get_template_part('includes/section', 'content'); ?>
 
@@ -29,9 +29,9 @@ Template Name: About
 
     <div class="blog-content">
 
-        <h4><?php the_title(); ?> </h4>
-        <?php the_excerpt();?>
-        <a href="<?php the_permalink();?>" class="btn btn-info">Read more</a>
+        <h4>Sarah Liason </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis labore consectetur voluptate voluptatum. Fugit molestiae similique tempore iste, temporibus cumque?</p>
+        <a href="#" class="btn btn-info">Email Sarah</a>
         </div>
     </div>
 </div>
@@ -46,9 +46,9 @@ Template Name: About
    
 
     <div class="blog-content">
-        <h4 ><?php the_title(); ?> </h4>
-        <?php the_excerpt();?>
-        <a href="<?php the_permalink();?>" class="btn btn-info">Read more</a>
+    <h4>George Liason </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis labore consectetur voluptate voluptatum. Fugit molestiae similique tempore iste, temporibus cumque?</p>
+        <a href="#" class="btn btn-info">Email George</a>
         </div>
     </div>
 </div>
