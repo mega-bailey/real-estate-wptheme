@@ -6,7 +6,7 @@
 <section class="row">
         <div class="col-lg-10">
 
-<h2 class="display-font"><?php echo single_cat_title(); ?></h2>
+<h1 class="mb-4"><?php echo single_cat_title(); ?></h1>
 
 
 <?php get_template_part('includes/section', 'archive'); ?>

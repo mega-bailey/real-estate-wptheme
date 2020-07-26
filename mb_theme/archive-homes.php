@@ -9,7 +9,7 @@
             
 
 <!-- <h2><?php echo single_cat_title(); ?></h2> -->
-<h2 class="display-font">Listings</h2>
+<h1 class="mb-4">Listings</h1>
 
 
 

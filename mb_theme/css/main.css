@@ -72,6 +72,7 @@ footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 300;
 }
 
 header .top-bar {
@@ -222,4 +223,9 @@ li::marker {
 
 .n2-clear {
   margin-top: 4rem;
+}
+
+#realtor-img {
+  width: 5rem;
+  height: 4rem;
 }
